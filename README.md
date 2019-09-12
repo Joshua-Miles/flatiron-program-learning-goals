@@ -1,4 +1,4 @@
-# Module 1 Plan
+# Module 1
 
 - Git
   - More than is reasonable for a single lecture
@@ -63,7 +63,7 @@
 
 
 
-# Module 2 Plan
+# Module 2
 
 - Explain the uses of
 
@@ -154,7 +154,7 @@
 
 
 
-# Module 3 Plan
+# Module 3
 
 *Useful Activations*
 
@@ -178,6 +178,18 @@ _Learning Goals_
 
 
 
+* JavaScripts
+  * Identify common syntax differences between Ruby and JavaScript
+    * String interpolation
+    * No symbols
+    * Everything is more explicit
+      - parenthesis, curly braces, etc.
+  * Explain the difference beween referencing and invoking a function
+  * Explain how JavaScript will find the value of a variable based on scope
+  * Define variable hoisting
+
+
+
 - Events
   - Use `addEventListener` to invoke a callback function after an event
   - Explain the difference between bubbling and capturing events
@@ -186,15 +198,7 @@ _Learning Goals_
 
 
 
-- 
-
-  - Identify basic syntax differences between JavaScript and Ruby
-  - Explain how JavaScript will find the value of a variable based on scope
-  - Explain how to traverse data structures in JavaScript
-  - Define variable hoisting
-
 - Asynchronous Programming
-
   - Describe asynchronous programming
   - Explain how callback functions are used to manage asynchronous programming
   - Explain how promises are used to manage asynchronous programming
@@ -217,15 +221,6 @@ _Learning Goals_
 
 
 
-- Fullstack Applications
-
-
-
-- Group Review 1
-- Group Review 2
-
-
-
 - Classes
   - Implement a class with the `class` and `constructor` keywords, and instantiate it with the `new` keyword
   - Determine the value of `this` based on how a function is defined and invoked
@@ -242,22 +237,22 @@ _Learning Goals_
 
 
 
-- Declarative JavaScript
+- _Declarative JavaScript_
 
   - _Use destructuring syntax to refactor verbose code_
-  - Use the spread operator to clone an array or object
+  - _Use the spread operator to clone an array or object_
 
-  - Compare and contrast declarative and imperative programming
+  - _Compare and contrast declarative and imperative programming_
 
-  - Use declarative functions to create DOM Nodes
+  - _Use declarative functions to create DOM Nodes_
 
 
 
-- JavaScript Tooling
-  - Define NPM, Babel, and JSX as tools for developing with JavaScript
-  - Use WebPack's Import Syntax to distribute code in multiple files
-  - Use public class fields to define instance properties without a constructor
-  - Use `create-react-app` to setup Babel, WebPack, and JSX for you
+- *JavaScript Tooling*
+  - *Define NPM, Babel, and JSX as tools for developing with JavaScript*
+  - *Use WebPack's Import Syntax to distribute code in multiple files*
+  - *Use public class fields to define instance properties without a constructor*
+  - *Use `create-react-app` to setup Babel, WebPack, and JSX for you*
 
 
 
@@ -272,7 +267,7 @@ _Learning Goals_
 
 
 
-# Module 4 Plan
+# Module 4
 
 - Components
   - Identify the Visual Components of a UI
