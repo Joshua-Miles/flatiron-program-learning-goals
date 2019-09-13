@@ -221,10 +221,14 @@ _Learning Goals_
 
 
 
+* What the Heck is `this`?
+  * Determine the value of `this` based on how a function is defined and invoked
+  * Change the value of `this` within a function using the arrow-function syntax
+
+
+
 - Classes
   - Implement a class with the `class` and `constructor` keywords, and instantiate it with the `new` keyword
-  - Determine the value of `this` based on how a function is defined and invoked
-  - Change the value of `this` within a function using the arrow-function syntax
   - Explain when and why to use class methods
   - Implement a class which inherits from another using the `extends` keyword
 
