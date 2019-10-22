@@ -2,7 +2,8 @@
 
 - Git
   - More than is reasonable for a single lecture
-- Datatypes
+
+- Data Structures
   - Recognize Datatypes
   - Create a hash
   - Create an Array
@@ -10,30 +11,35 @@
   - Create functions
     - Optional arguments
     - Hashes as arguments
-- Objects
+
+- Object Orientation
   - Create a class and instance
   - Create instance variables
   - Create instance methods
   - Use the `initialize` method to set inital values for instance variables 
-- Objects Part II
+
+- Object Properties
   - Explain `self`
   - Create getters and setters
   - Use `access` macros
-- Objects Part III
+
+- Classes
   - Create class variables
   - Create class methods
   - Explain when to use class methods
+
 - Object Relationships
   - Explain the value of a single source of truth
   - Create a one to many relationship
   - Create a many to many relationship
-- SQL CRUD
+
+- SQL
   - Explain the purpose and structure of a relational database
   - Use CRUD Operations to manipulate data
   - Use aggregate functions to analyze data
-- SQL Relationships
   - Use Row IDs as Foreign Keys
   - Use JOIN 
+
 - Active Record
   - Create a migration
   - Run a migration
@@ -41,13 +47,16 @@
   - Read a record
   - Update a record
   - Delete a record
+
 - Active Record Relationships
   - Use a migration to create foreign keys
   - Use a `belongs_to` macro to create an ActiveRecord relationship
   - Use a `has_many` macro to create an ActiveRecord relationship
   - Use the `through` option to create a many to many relationship
+
 - CLI Applications
-  - Get user input
+  - Focus on the methodology of using tools to build an app
+
 - Intro to the Internet
   - Explain the role of a Server and Client in the context of the internet
   - Identify the components of an HTTP Request/Response
@@ -62,121 +71,91 @@
     - Status Code
 
 
-
 # Module 2
 
-- Explain the uses of
+- Sinatra & MVC
+  - Define the following tools
+    - Rack
+    - Shotgun
+    - Sinatra
+    - Rails
+  - Explain the responsibilities of the following application components:
+    - Model
+    - View
+    - Controller
 
-  - Rack
-  - Shotgun
-  - Sinatra
-  - Rails
+- HTML & CSS
+  - Identify the common components of HTML elements
+    - Tag Name
+    - Attributes
+    - Children
+  - Identify Common HTML and CSS Elements
+     - div
+     - p
+     - h1
+     - img
+     - a
+  - Use EJS to interpolate Ruby variables into HTML pages
 
-- Explain the responsibilities of the following application components:
+- Forms
+  - Identify HTML elements and attributes common to forms
+    - form
+    - input
+    - textarea
+    - select
+    - name
+    - value
+    - target
+  - Describe how to send data from the browser to the server with a Form
+  - Build a form which creates a nested hash through input name
 
-  - Model
-  - View
-  - Controller
+- Web Applications
+  - Focus on the methodology of using tools to build an app
 
-- Identify the common components of HTML elements
+- Web Associations
+  - Use foreign keys to create references between Table Rows
+  - Use user input to define foreign keys
+  - Use other types of inputs to improve the user's experience when creating associations
 
-  - Tag Name
-  - Attributes
-  - Children
+- Rails
+  - Create a Rails app
+  - Create & Run Migrations with Rails
+  - Create Controllers and route requests to those controllers using rails
+  - Use the methods of strong params to filter user input
 
-- Identify Common HTML and CSS Elements
+- Route Helpers
+  - Use `resources` to automate the routing process
+  - Use `link_to` to automate `a` tags
 
-  - div
-  - p
-  - h1
-  - img
-  - a
+- Form Helpers
+  - Use rails helpers to create a form
+  - Use `form_with` to create a form for a resource
+  - Use `collection_select` and `collection_check_boxes` to create inputs for associations
 
-- Use EJS to interpolate Ruby variables into HTML pages
+- Sessions & Cookies
+  - Define statelessness in the context of programming
+  - Explain what it means for HTTP to be stateless 
+  - Explain the roles that sessions and cookies play in solving the challenges posed by statelessness
 
-- Identify HTML elements and attributes common to forms
+- Rails Validations
+  - Explain the advantage of fat models and skinny controllers
+  - Use ActiveRecord validation helpers to validate data
+  - Check for resource validity in the controller
+  - Display error messages in the view
 
-  - form
-  - input
-  - textarea
-  - select
-  - name
-  - value
-  - target
-
-- Describe how to send data from the browser to the server with a Form
-
-- Build a form which creates a nested hash through input name
-
-
-
-- Use foreign keys to create references between Table Rows
-- Use user input to define foreign keys
-- Use other types of inputs to improve the user's experience when creating associations
-
-
-
-- Create a Rails app
-- Create & Run Migrations with Rails
-- Create Controllers and route requests to those controllers using rails
-- Use the methods of strong params to filter user input
-
-
-
-- Use `resources` to automate the routing process
-- Use `link_to` to automate `a` tags
-
-
-
-- Use rails helpers to create a form
-- Use `form_with` to create a form for a resource
-- Use `collection_select` and `collection_check_boxes` to create inputs for associations
-
-
-
-- Define statelessness in the context of programming
-- Explain what it means for HTTP to be stateless 
-- Explain the roles that sessions and cookies play in solving the challenges posed by statelessness
-
-
-
-- Explain the advantage of fat models and skinny controllers
-- Use ActiveRecord validation helpers to validate data
-- Check for resource validity in the controller
-- Display error messages in the view
-
-
-
-- Define Authentication, Authorization, Hashing, Encryption, and BCrypt
-- Add a secured password to a user model using `bcrypt` and `password_digest`
-- Implement a sign in form
-- Implement authorization to protect a route in an application
-
+- Authentication
+  - Define Authentication, Authorization, Hashing, Encryption, and BCrypt
+  - Add a secured password to a user model using `bcrypt` and `password_digest`
+  - Implement a sign in form
+  - Implement authorization to protect a route in an application
 
 
 # Module 3
-
-*Useful Activations*
-
-Not mixing ERB and JS
-
-- What a game would look like in rails
-- Foreground HTTP requests are the devil
-
-Getting one language talking to another language
-
-- Reaping the benefits of both
-
-
-
-_Learning Goals_
 
 - The DOM
   - Mutate the DOM and its styles using JavaScript
   - Create new DOM nodes and append them
   - Use different querySelectors to select single or multiple elements
-
-
 
 * JavaScripts
   * Identify common syntax differences between Ruby and JavaScript
@@ -187,23 +166,17 @@ _Learning Goals_
   * Explain the difference beween referencing and invoking a function
   * Explain how JavaScript will find the value of a variable based on scope
   * Define variable hoisting
-
-
-
+ 
 - Events
   - Use `addEventListener` to invoke a callback function after an event
   - Explain the difference between bubbling and capturing events
   - Use `event.preventDefault` to override a form submission
   - Explain why to use an event listener on `DOMContentLoaded`
 
-
-
 - Asynchronous Programming
   - Describe asynchronous programming
   - Explain how callback functions are used to manage asynchronous programming
   - Explain how promises are used to manage asynchronous programming
-
-
 
 - Communicating with the Server
   - Describe the uses of a backend in the context of web applications
@@ -211,67 +184,39 @@ _Learning Goals_
   - Exaplain what it means for `fetch` to run Asynchronously
   - Use fetch to send data to a server
 
-
-
 - Rails API
   - Render JSON data from a Rails controller
   - Using `json:` to render ActiveRecord instances
   - Explain CORS and how to implement it in a Rails App
   - Render JSON data that includes associated entities
 
-
-
-* What the Heck is `this`?
-  * Determine the value of `this` based on how a function is defined and invoked
-  * Change the value of `this` within a function using the arrow-function syntax
-
-
+- What the Heck is `this`?
+  - Determine the value of `this` based on how a function is defined and invoked
+  - Change the value of `this` within a function using the arrow-function syntax
 
 - Classes
   - Implement a class with the `class` and `constructor` keywords, and instantiate it with the `new` keyword
   - Explain when and why to use class methods
   - Implement a class which inherits from another using the `extends` keyword
-
-
+  
+- JavaScript Applications
+  - Focus on the methodology of using tools to build an app
 
 - Higher Order Functions
   - Use currying to _
   - Use callbacks to _
   - Write more readable code using  `map`
 
-
-
-- _Declarative JavaScript_
-
-  - _Use destructuring syntax to refactor verbose code_
-  - _Use the spread operator to clone an array or object_
-
-  - _Compare and contrast declarative and imperative programming_
-
-  - _Use declarative functions to create DOM Nodes_
-
-
-
-- *JavaScript Tooling*
-  - *Define NPM, Babel, and JSX as tools for developing with JavaScript*
-  - *Use WebPack's Import Syntax to distribute code in multiple files*
-  - *Use public class fields to define instance properties without a constructor*
-  - *Use `create-react-app` to setup Babel, WebPack, and JSX for you*
-
-
-
-#### Node.js Variant
-
-- Intro to Node.js
-  - Describe the components of the MEAN / MERN stack
-  - Create Controllers in JavaScript with express
-  - Discuss the differences in the values of Ruby and JavaScript
-- Node.js & the Database
-  - New stuff here
-
+- JavaScript Tooling
+  - Define NPM, Babel, and JSX as tools for developing with JavaScript
+  - Use WebPack's Import Syntax to distribute code in multiple files
+  - Use public class fields to define instance properties without a constructor
+  - Use `create-react-app` to setup Babel, WebPack, and JSX for you
 
 
 # Module 4
+
+#### React
 
 - Components
   - Identify the Visual Components of a UI
@@ -279,34 +224,24 @@ _Learning Goals_
   - Use props to configure a child component
   - Use the spread operator to pass props to a child component
 
-
-
 - State & Events
   - Listening for events by passing event handlers as props
   - Define and change state within a component using `setState`
   - Identify controlled and uncontrolled components
 
-
-
 - Inverse Dataflow
   - Changing state in a parent component
   - Declaratively updating state
-
-
 
 - Asynchronous React
   - Recognize common React Lifecycle methods and when they will be invoked
   - Use `componentDidMount` to run make a fetch after the first render
   - Use fetch to save data back to the server after an event
 
-
-
-- React Applications (Thinking in React)
-
+- React Applications
   - Strategically place state
   - Plan the structure/mutations of state
   - Plan inverse dataflow
-
 
 - API Authentication
   - Identify the unique challenges of authentication with an API
@@ -318,31 +253,11 @@ _Learning Goals_
   - Send authentication tokens to the server using an `Authorization` header with `fetch`
   - Use a `before_action` hook to check for authentication
 
-
-
 - React Hooks
   - use `useState` to create stateful functional components
   - use `useEffect` as if it were `componentDidMount`
   - Create a custom hook which relies on built in hooks
-
-
-
-#### Node.js Variant
-
-- Realtime Applications with Node.js
-  - Explain the purpose of WebSockets
-  - Respond to `wss` requests with socket io
-  - Sync data between multiple clients
-
-
-
-- Authentication with Node.js
-  - Add secure passwords to a user model
-  - Save authentication tokens in the browser using `localStorage`
-  - Send authentication tokens to the server using an `Authorization` header with `socket.io-client`
-  - Extract the `authorization` header from a socket connection
-
-
+  
 
 #### Redux
 
@@ -354,17 +269,28 @@ _Learning Goals_
   - Change state by `dispatch`ing `actions` to your store
   - Explain why we **must** declaratively update state
 
-
-
 - React + Redux
   - Explain the two problems Redux attempts to solve
   - Create store to better manage state
   - Avoid relentlessly passing props by connecting a component to the store
-
-
 
 - Redux Applications
   - Integrate Redux with React Router using an external history object
   - Use thunk to send fetch requests from within action creators
   - Use pure functions to distribute the responsibility of reducers
 
+
+# Node.js
+
+- Intro to Node.js
+  - Describe the components of the MEAN / MERN stack
+  - Create Controllers in JavaScript with express
+  - Discuss the differences in the values of Ruby and JavaScript
+
+- Node.js & the Database
+  - New stuff here
+
+- Realtime Applications with Node.js
+  - Explain the purpose of WebSockets
+  - Respond to `wss` requests with socket io
+  - Sync data between multiple clients
