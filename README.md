@@ -32,6 +32,11 @@
   - Explain the value of a single source of truth
   - Create a one to many relationship
   - Create a many to many relationship
+  
+- Object Relationships
+  - Explain the value of a single source of truth
+  - Create a one to many relationship
+  - Create a many to many relationship
 
 - SQL
   - Explain the purpose and structure of a relational database
