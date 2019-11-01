@@ -28,15 +28,20 @@
   - Create class methods
   - Explain when to use class methods
 
-- Object Relationships
+- One to Many Relationships
+  - Use an instance variable to reference a related object
   - Explain the value of a single source of truth
-  - Create a one to many relationship
-  - Create a many to many relationship
+  - Use an instance method to reference multiple related objects
+  - Use `select` to reference related objects
   
-- Object Relationships
-  - Explain the value of a single source of truth
-  - Create a one to many relationship
-  - Create a many to many relationship
+- Many to Many Relationships
+  - Identify use cases for one to many and many to many relationships
+  - Define Join Class
+  - Reference related objects through a join class
+  - Use `map` to reference related objects through a join class
+  
+- Inheritance
+  - 
 
 - SQL
   - Explain the purpose and structure of a relational database
