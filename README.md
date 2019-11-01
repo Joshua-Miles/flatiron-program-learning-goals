@@ -29,13 +29,13 @@
   - Explain when to use class methods
 
 - One to Many Relationships
-  - Use require to split code into seperate files
   - Use an instance variable to reference a related object
   - Explain the value of a single source of truth
   - Use an instance method to reference multiple related objects
   - Use `select` to reference related objects
   
 - Many to Many Relationships
+  - Use `require_relative` to split code into seperate files
   - Identify use cases for one to many and many to many relationships
   - Define Join Class
   - Reference related objects through a join class
