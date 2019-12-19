@@ -214,9 +214,9 @@
   - Focus on the methodology of using tools to build an app
 
 - Higher Order Functions
-  - Use currying to _
-  - Use callbacks to _
-  - Write more readable code using  `map`
+  - Use callbacks with common iterators like `map` and `filter`
+  - Use currying to dynamically create basic functions like selectors
+  - Describe functional, object oriented, and procedural paradigms
 
 - JavaScript Tooling
   - Define NPM, Babel, and JSX as tools for developing with JavaScript
