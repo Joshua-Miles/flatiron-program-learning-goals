@@ -1,7 +1,7 @@
 # Module 1
 
 - Git
-  - More than is reasonable for a single lecture
+  - TODO
 
 - Data Structures
   - Recognize Datatypes
@@ -299,7 +299,7 @@
   - Discuss the differences in the values of Ruby and JavaScript
 
 - Node.js & the Database
-  - New stuff here
+  - TODO
 
 - Realtime Applications with Node.js
   - Explain the purpose of WebSockets
